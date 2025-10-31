@@ -17,7 +17,7 @@ Files in this directory:
 - test.rules — Suricata rule to trigger an NFS filestore alert
 
 # PCAP source
-- The test.yaml references ../issue-3277-nfsv2-filestore/nfsv2.pcap
+- The test uses a custom-generated nfsv2-write.pcap containing NFSv2 WRITE operations
 
 #Related Issue
 https://redmine.openinfosecfoundation.org/issues/4946

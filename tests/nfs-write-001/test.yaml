@@ -4,7 +4,7 @@ requires:
 args:
   - -k none
 
-pcap: ../issue-3277-nfsv2-filestore/nfsv2.pcap
+pcap: nfsv2-write.pcap
 
 checks:
   # Ensure NFSv2 WRITE operations are parsed and marked as file transactions
